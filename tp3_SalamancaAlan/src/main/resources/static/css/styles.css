@@ -1,0 +1,86 @@
+@charset "UTF-8";
+body{
+	font-family: sans-serif;
+	margin: 0;
+	padding: 0;
+}
+#footer{
+	background-color: #283940;
+	margin: 0;
+	padding: 10px;
+}
+#footer h3{
+	font-size: 28px;
+	color: white;
+}
+#footer a{
+	color: white;
+	font-size: 19px;
+}
+#footer p{
+	color: white;
+}
+#header{
+	background-color: #2A3133;
+	margin: 0;
+	padding: 10px;
+}
+#header h1{
+	color:white;
+	text-align: center;
+}
+.nav{
+	text-align: center;
+}
+.nav a{
+	color:white;
+	text-align: center;
+}
+.main{
+	background-color: #316173;
+	padding:50px;
+	display: flex;
+	flex-direction: column; /* ALINEAR EL CONTENIDO EN COLUMNAS */
+	align-items: center; /* ALINEAR ITEMS AL CENTRO */
+}
+.main h1{
+	color: white;
+	font-size: 48px;
+}
+.main .form{
+	background-color: #F0F0F0;
+	padding:20px;
+	width: 50%;
+	text-align: center;
+}
+.form label{
+	display: flex;
+	flex-direction: column;
+	margin: 10px;
+	padding: 0;
+}
+.form input{
+	width: 300px;
+	height: 25px;
+	padding: 0;
+}
+
+.container-genero{
+	display:flex;
+	flex-direction: row;
+}
+
+.container-categoria{
+	display: flex;
+	flex-direction: row;
+}
+#provincia{
+	width: 300px;
+	height: 25px;
+}
+.botonS{
+	margin: 20px;
+}
+.botonB{
+	margin: 20px;
+}
